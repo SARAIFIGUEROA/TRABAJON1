@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var dias = parseInt(prompt("ingrese la cantidad de dias que estará"))
+        var preciohotel = parseFloat(prompt("ingrese el costo del hotel por dia"))
+        var preciocomida = parseFloat(prompt("ingrese el costo de la comida"))
+        var total = (preciocomida + preciohotel + 100) * dias
+    alert("El costo del hotel es: $" + preciohotel * dias + "\n El precio de la comida es: $" + preciocomida * dias + "\n" + "pesos extra diarios: $" + 100 * dias + "\n" + "el monto total del cheque es: $" + total)
+    </script>
+</body>
+
+</html>

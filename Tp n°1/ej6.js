@@ -1,0 +1,5 @@
+var altura = parseInt(prompt("ingrese la altura del triangulo"))
+var base = parseInt(prompt("ingrese la base del triangulo"))
+var sumadecatetos = Math.pow(altura, 2)+Math.pow(base, 2)
+var hipotenusa = Math.pow(sumadecatetos, 0.5)
+alert("la hipotenusa es: " + hipotenusa)
